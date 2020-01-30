@@ -16,7 +16,7 @@ composer require "sunriseqf/junit-laravel"
 在 `config/app.php` 注册 ServiceProvider 和 Facade (Laravel 5.5 无需手动注册)
 
 'providers' => [
-    ShineYork\SJunitLaravel\SJunitServiceProvide::class,
+    Sunriseqf\JunitLaravel\JunitServiceProvider::class,
 ]
 
 然后在浏览器中直接访问路由
